@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'starter_generators'
 
-gem :production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
